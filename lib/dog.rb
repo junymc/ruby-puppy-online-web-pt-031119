@@ -1,8 +1,9 @@
+require 'pry'
 class Dog
 @@all = []
 
 attr_accessor :name
-
+ binding.pry
 def self.all
   @@all
   puts "#{name}+\n"
