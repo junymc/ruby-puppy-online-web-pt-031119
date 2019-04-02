@@ -10,6 +10,7 @@ def initialize(name)
 end
 
 def self.all
+  binding.pry
   names = []
   @@all
   @@all.each do |dog|
