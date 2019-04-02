@@ -5,7 +5,7 @@ attr_accessor :name
 
 def self.all
   @@all
-  puts name
+  puts @name
 end
 
 def initialize(name)
