@@ -12,13 +12,12 @@ end
 def self.all
   names = []
   @@all
-  binding.pry
   @@all.each do |dog|
     names << dog.name
   end
   puts names
 end
-
+binding.pry
 def self.clear_all
   @@all.clear
 end
