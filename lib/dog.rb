@@ -10,5 +10,7 @@ def initialize(name)
   @@all << name
 end
 
-def
+def self.clear_all
+end
+
 end
