@@ -7,8 +7,9 @@ attr_accessor :name
 def initialize(name)
   @name = name
   @@all << self
+  binding.pry
 end
-binding.pry
+
 def self.all
   names = []
   @@all
