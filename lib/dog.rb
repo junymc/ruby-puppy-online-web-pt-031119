@@ -7,7 +7,7 @@ end
 
 def initialize(name)
   @name = name
-  @@all << new_dog
+  @@all << name
 end
 
 end
