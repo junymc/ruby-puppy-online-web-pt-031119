@@ -12,7 +12,7 @@ end
 def self.all
   names = []
   @@all
-  @all.each do |dog|
+  @@all.each do |dog|
     names << dog.name
   end
   names
