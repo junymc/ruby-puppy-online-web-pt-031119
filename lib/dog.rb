@@ -17,7 +17,7 @@ def self.all
   end
   puts names
 end
-binding.pry
+
 def self.clear_all
   @@all.clear
 end
