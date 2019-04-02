@@ -10,8 +10,12 @@ def initialize(name)
 end
 
 def self.all
+  names = []
   @@all
-  puts @@all
+  @all.each do |dog|
+    names << dog.name
+  end
+  names
 end
 
 def self.clear_all
