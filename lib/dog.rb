@@ -10,4 +10,5 @@ def initialize(name)
   @@all << name
 end
 
+def
 end
