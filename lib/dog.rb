@@ -11,7 +11,7 @@ end
 
 def self.all
   @@all
-  puts "#{name}+\n"
+  puts @@all
 end
 
 def self.clear_all
