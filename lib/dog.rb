@@ -4,14 +4,14 @@ class Dog
 
 attr_accessor :name
 
-def self.all
-  @@all
-  puts "#{name}+\n"
-end
-
 def initialize(name)
   @name = name
   @@all << self
+end
+
+def self.all
+  @@all
+  puts "#{name}+\n"
 end
 
 def self.clear_all
