@@ -5,6 +5,7 @@ attr_accessor :name
 
 def self.all
   @@all
+  puts @@all
 end
 
 def initialize(name)
